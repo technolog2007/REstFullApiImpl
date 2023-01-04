@@ -2,6 +2,7 @@ package shpp.com.ua.example.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import shpp.com.ua.example.model.Person;
@@ -57,6 +58,7 @@ public class PersonController {
     }
 
     @PutMapping(URL)
+    @ResponseStatus(HttpStatus.OK)
     public String putPerson(@Valid @RequestBody Person person, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             logger.info(ADD_ERROR_MESSAGE);
