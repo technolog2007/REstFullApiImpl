@@ -46,26 +46,6 @@
             <artifactId>webjars-locator-core</artifactId>
             <version>0.50</version>
         </dependency>
-        <!--        <dependency>-->
-<!--            <groupId>org.hibernate.validator</groupId>-->
-<!--            <artifactId>hibernate-validator</artifactId>-->
-<!--            <version>8.0.0.Final</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.hibernate.validator</groupId>-->
-<!--            <artifactId>hibernate-validator-cdi</artifactId>-->
-<!--            <version>8.0.0.Final</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.glassfish.expressly</groupId>-->
-<!--            <artifactId>expressly</artifactId>-->
-<!--            <version>5.0.0</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>jakarta.validation</groupId>-->
-<!--            <artifactId>jakarta.validation-api</artifactId>-->
-<!--            <version>3.0.2</version>-->
-<!--        </dependency>-->
     </dependencies>
 
     <build>
