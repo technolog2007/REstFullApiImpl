@@ -9,8 +9,7 @@ import java.util.List;
 
 @Service
 public class PersonService {
-    final
-    PersonRepository personRepository;
+    private final PersonRepository personRepository;
 
     public PersonService(PersonRepository personRepository) {
         this.personRepository = personRepository;
